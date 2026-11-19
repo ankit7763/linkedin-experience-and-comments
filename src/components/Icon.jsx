@@ -29,6 +29,20 @@ const iconPaths = {
   ),
   close: <path d="m18 6-12 12M6 6l12 12" />,
   chevron: <path d="m7 10 5 5 5-5" />,
+  chat: (
+    <>
+      <path d="M21 15a3 3 0 0 1-3 3H8l-5 3V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3Z" />
+      <path d="M8 9h8M8 13h5" />
+    </>
+  ),
+  dots: (
+    <>
+      <circle cx="12" cy="5" r="1" fill="currentColor" stroke="none" />
+      <circle cx="12" cy="12" r="1" fill="currentColor" stroke="none" />
+      <circle cx="12" cy="19" r="1" fill="currentColor" stroke="none" />
+    </>
+  ),
+  arrowUp: <path d="M12 19V5m-6 6 6-6 6 6" />,
 }
 
 function Icon({ name, size = 18, className = '' }) {

@@ -2,6 +2,7 @@ import { useCallback, useState } from 'react'
 import ExperienceForm from './components/ExperienceForm'
 import ExperienceList from './components/ExperienceList'
 import ProfileHeader from './components/ProfileHeader'
+import CommentsSection from './components/CommentsSection'
 
 const sampleExperience = {
   id: 'experience-1',
@@ -71,6 +72,7 @@ function App() {
             onEdit={handleEditExperience}
             onDelete={handleDeleteExperience}
           />
+          <CommentsSection />
         </div>
       </section>
     </main>
